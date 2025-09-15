@@ -1,24 +1,60 @@
+# 🛳 Titanic Dataset Visualization Project
 
-# Titanic Dataset Visualization
+## 📌 Project Overview
+This project uses the **Titanic dataset** to explore survival patterns through data visualization.  
+We apply **Seaborn** and **Matplotlib** to generate meaningful insights about passengers, survival rates, and demographics.
 
-## 📌 Dataset
-The Titanic dataset contains demographic and travel information for passengers aboard the Titanic.  
-Target column: **Survived** (0 = Died, 1 = Survived).  
+---
 
-Source: [Kaggle - Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic/data)
+## 📂 Files Included
+- `titanic_visualization.py` → Python script to generate visualizations.  
+- `train.csv` → Titanic dataset.  
+- `images/` → Folder containing saved graphs.  
+
+---
 
 ## 📊 Visualizations
-Run the Jupyter Notebook to generate plots. They will be saved in the `images/` folder.
 
-- Survival Count
-- Survival by Gender
-- Survival by Passenger Class
-- Age Distribution by Survival
-- Fare Distribution by Survival
+### 1. Survival Count
+Shows how many passengers survived vs did not survive.  
+![Survival Count](images/survival_count.png)
 
-## 🔎 Insights
-- Majority of passengers did not survive.  
-- Women survived at a much higher rate than men.  
-- First-class passengers had better survival chances.  
-- Children and younger passengers had higher survival rates.  
-- Passengers who paid higher fares were more likely to survive.  
+---
+
+### 2. Survival by Gender
+Shows survival rates between **male and female** passengers.  
+![Survival by Gender](images/survival_by_gender.png)
+
+---
+
+### 3. Survival by Passenger Class
+Survival rate compared across **1st, 2nd, and 3rd class** passengers.  
+![Survival by Class](images/survival_by_class.png)
+
+---
+
+### 4. Age Distribution
+Distribution of passenger ages on the Titanic.  
+![Age Distribution](images/age_distribution.png)
+
+---
+
+### 5. Survival by Embarkation Port
+Shows survival based on **embarkation port** (C = Cherbourg, Q = Queenstown, S = Southampton).  
+![Survival by Embarked](images/survival_by_embarked.png)
+
+---
+
+## 📈 Insights & Observations
+1. **Overall Survival Rate**: More passengers did not survive compared to those who did.  
+2. **Gender Impact**: A significantly higher proportion of **women survived** compared to men.  
+3. **Class Impact**: **First-class passengers** had a better chance of survival compared to second and third-class passengers.  
+4. **Age Distribution**: Most passengers were between **20–40 years old**, but survival was not strictly dependent on age.  
+5. **Embarkation Port**: Passengers from **Cherbourg (C)** had a higher survival rate compared to other ports.  
+
+---
+
+## 🚀 How to Run
+1. Install dependencies:
+   ```bash
+   pip3 install pandas seaborn matplotlib
