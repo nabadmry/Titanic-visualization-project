@@ -39,9 +39,9 @@ Distribution of passenger ages on the Titanic.
 
 ---
 
-### 5. Survival by Embarkation Port
-Shows survival based on **embarkation port** (C = Cherbourg, Q = Queenstown, S = Southampton).  
-![Survival by Embarked](images/survival_by_embarked.png)
+### 5. Fare Distribution
+ 
+![Fare Distribution](images/fare_distribution.png)
 
 ---
 
